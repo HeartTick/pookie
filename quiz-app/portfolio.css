@@ -1,0 +1,60 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .navbar {
+    background-color: #333;
+  }
+  
+  .navbar-brand {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  .nav-link {
+    color: white !important;
+    font-size: 18px;
+  }
+  
+  .nav-link:hover {
+    color: #f1f1f1 !important;
+  }
+  
+  .home-section {
+    background: url('your-background-image.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .about-section img {
+    margin-top: 20px;
+  }
+  
+  .projects-section .card {
+    margin-bottom: 30px;
+  }
+  
+  .contact-section form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contact-section input,
+  .contact-section textarea {
+    width: 100%;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+  }
+  
